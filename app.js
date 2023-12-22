@@ -45,10 +45,10 @@ const initializeDBAndServer = async () => {
 };
 initializeDBAndServer();
 
-const logger = (request, response, next) => {
-  console.log(request.query);
-  next();
-};
+// const logger = (request, response, next) => {
+//   console.log(request.query);
+//   next();
+// };
 
 // API 1
 const authenticateToken = (request, response, next) => {
